@@ -27,10 +27,10 @@
           <a class="nav-link active" aria-current="page" href="index.php">Acceuil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Apropos</a>
+          <a class="nav-link" href="apropos.php">Apropos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <?php if(isset($_SESSION['auth'])){ ?>
           <li class="nav-item">
